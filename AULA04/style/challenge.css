@@ -11,8 +11,7 @@
 }
 
 .hero > h1 {
-    margin: 0 auto;
-    width: max-content;
+    text-align: center;
 }
 
 .row > div{
