@@ -61,3 +61,12 @@ img {
     display: flex;
     gap: 1rem;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    padding: 2rem;
+}
