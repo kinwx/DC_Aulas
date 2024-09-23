@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+header{
+    text-align: center;
+    border-bottom: 1px solid #000;
+    padding: 2rem 0;
+}
+
+
+.conteudo-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.conteudo-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-text h2 ,span{
+    margin:10px 0;
+}
+
+.conteudo-primary img {
+    width: 400px;
+    height: 400px;
+}
+
+
+.conteudo-option {
+    display: flex;
+}
+
+.btn-primary {
+    background-color:rgb(000, 100, 200);
+    color: #fff;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.btn-dark{
+    background-color:rgb(000, 000,000);
+    color: #fff;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+/* .conteudo-option a {
+    background-color:rgb(000, 100, 200);
+    color: #fff;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 15px;
+} */
+
+
+
+/* .conteudo-option:nth-child(3){
+    background-color: red;
+} */
+
+
+/* https://dontpad.com/turmamark/06 */
