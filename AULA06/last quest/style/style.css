@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.responsive {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #404040;
+    color: #fff;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    height: 400px;
+    background-image: url("https://wallpapersmug.com/download/3840x2160/9f259b/coffee-cup-beans.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.hero > div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
