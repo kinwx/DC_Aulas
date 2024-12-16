@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #252525;
+            color: #f1f1f1;
+        }
+
+        .card {
+            width: 200px;
+            background-color: #f1f1f1;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            color: black;
+            font-family: sans-serif;
+            overflow: hidden;
+            box-shadow: 5px 5px 12px rgba(0, 0, 0, .3);
+        }
+        .card > div {
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="saudacao()">Você clicou aqui</button>
+    
+    <button id="conteudoBotao">Você clicou aqui 2</button>
+
+    <div>
+
+    </div>
+    <ul class="lista">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    <input type="text" id="conteudo" onkeyup="mudouValor()">
+    
+    <div id="cliente">
+    </div>
+
+    <button id="menu">Criar um menu</button>
+
+    <header id="conteudoHeader">
+
+    </header>
+
+    <div class="card">
+        <img src='https://marketplace.canva.com/EAFDPCAyhG8/1/0/1600w/canva-logotipo-moderno-tecnologia-e-gaming-roxo-lnFtfcMMnHM.jpg' alt="">
+        <div>
+            <span>Nome:</span>
+            <span>Preço:</span>
+            <span>Quantidade:</span>
+        </div>
+    </div>
+
+    <section class="card"></section>
+    <script src="./main.js"></script>
+</body>
+</html>
