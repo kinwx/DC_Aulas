@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Exercicio</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="button-area">
+          <button data-open-modal class="default">Adicionar Jogador</button>
+        </div>
+        <ul class="list" data-list>
+          <div class="item-list">
+            <span class="icon-ball">10</span>
+            <p class="labels">
+              <strong>Jorge</strong>
+              Atacante
+            </p>
+          </div>
+        </ul>
+      </div>
+    </main>
+    <dialog data-modal>
+      <div>
+        <button data-close class="close">fechar</button>
+        <div class="item-input">
+          <label for="name">Nome:</label>
+          <input
+            autocomplete="off"
+            type="text"
+            id="name"
+            data-input-name
+            class="rounded border"
+          />
+        </div>
+        <div class="item-input">
+          <label for="number">Número da camisa:</label>
+          <input
+            autocomplete="off"
+            type="number"
+            id="number"
+            data-input-number
+            class="rounded border"
+          />
+        </div>
+        <div class="item-input">
+          <label for="position">Posição:</label>
+          <input
+            autocomplete="off"
+            type="text"
+            id="position"
+            data-input-position
+            class="rounded border"
+          />
+        </div>
+        <button data-submit class="submit">adicionar</button>
+      </div>
+    </dialog>
+    <script src="./main.js"></script>
+  </body>
+</html>
